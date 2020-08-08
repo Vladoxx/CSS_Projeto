@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJETO CSS</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="validação.js"></script>
+
 </head>
 
 <body>
@@ -148,30 +150,29 @@
         </div>
 
         <div class="Formulario">
-            <form action="" method="POST" enctype="multipart/form-data"> 
+            <form action="" method="post" class="form-contato" onsubmit="return validação()"> 
                 <div>
-                    <label for="name">NOME</label>
-                    <input type="text" name="user_name" required>
+                    <label for="nome">USERNAME</label>
+                    <input type="text" id="nome" name="nome" required>
                 </div> 
                 <div>
-                    <label for="mail">E-MAIL</label>
-                    <input type="email" name="user_mail" required>
+                    <label for="email">E-MAIL</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div>
-                    <label>ASSUNTO</label> ASSUNTO
-                    <input type="text" name="assunto" required> 
+                    <label for="assunto">SUBJECT</label>
+                    <input type="text" id="assunto" name="assunto" required> 
                 </div>
                 <div>
-                    <label for="msg">MENSAGEM</label>
-                    <textarea name="user_message" required></textarea>
+                    <label for="mensagem">MESSAGE</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
                 </div>
                 <div>
-                    <button type="submit" class="Enviar">ENVIAR</button>
+                    <button type="submit" class="Enviar">SUBMIT</button>
                 </div>
             </form>
         </div>
     </section>
-
 
 </body>
 </html>
