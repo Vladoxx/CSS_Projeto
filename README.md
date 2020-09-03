@@ -1,6 +1,6 @@
-# CSS_Projeto
-## HTML = Pronto!
-## CSS + Responsive = Pronto, faltam correçoes menores.
-## Javascript = Validado! Se adicionará a API rest como outro repositório aparte deste.
+# CSS_Portfólio
+## HTML
+## CSS
+## Javascript = Validado!
 ## As correçoes e outros detalhes se iram adicionando passo a passo.
 
